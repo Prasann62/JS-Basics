@@ -1,0 +1,9 @@
+<script>
+    var a,b,ans;
+    a=prompt("Enter a value");
+    b=prompt("Enter b value");
+    c=prompt("Enter c value");
+
+    ans=((a*a)+(b*b)+(c*c)+2*(a*b)+2*(b*c)+2*(c*a));
+    console.log("Answer="+ans);
+</script>
